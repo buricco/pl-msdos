@@ -1,0 +1,23 @@
+masm /I..\inc msdos;
+masm /I..\inc mscode;
+masm /I..\inc dosmes;
+masm /I..\inc misc;
+masm /I..\inc getset;
+masm /I..\inc dircall;
+masm /I..\inc alloc;
+masm /I..\inc dev;
+masm /I..\inc dir;
+masm /I..\inc disk;
+masm /I..\inc fat;
+masm /I..\inc rom;
+masm /I..\inc stdbuf;
+masm /I..\inc stdcall;
+masm /I..\inc stdctrlc;
+masm /I..\inc stdfcb;
+masm /I..\inc stdproc;
+masm /I..\inc stdio;
+masm /I..\inc time;
+masm /I..\inc xenix;
+masm /I..\inc xenix2;
+link @doslink
+exe2bin msdos.exe msdos.sys
